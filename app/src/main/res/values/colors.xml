@@ -3,8 +3,8 @@
 
 <resources>
 
-    <color name="colorPrimary">#f69b30</color>
-    <color name="colorPrimaryDark">#fde291</color>
+    <color name="colorPrimary">#4bdd52</color>
+    <color name="colorPrimaryDark">#5cc961</color>
     <color name="textColorPrimary">#FFFFFF</color>
     <color name="windowBackground">#FFFFFF</color>
     <color name="navigationBarColor">#000000</color>

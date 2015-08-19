@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.0 rc2"
 
     defaultConfig {
-        applicationId "pigi.example.pigi"
+        applicationId "oaktroop.bduniversity"
         minSdkVersion 14
         targetSdkVersion 22
         versionCode 1
