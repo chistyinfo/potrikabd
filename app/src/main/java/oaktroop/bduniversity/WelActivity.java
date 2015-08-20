@@ -9,9 +9,12 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.FrameLayout;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.rzlts.appinbox.AppInbox;
 import com.rzlts.appinbox.model.Gender;
 import com.rzlts.appinbox.views.InboxView;
+
 
 
 public class WelActivity extends AppCompatActivity implements FragmentDrawer.FragmentDrawerListener {
@@ -28,6 +31,12 @@ public class WelActivity extends AppCompatActivity implements FragmentDrawer.Fra
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wel);
+
+
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
 
 
         AppInbox.startInbox(this, "c1mkKqWWNaPSzE0e9GIHkgAyD0fvlslXZeosmJTmg2E", "89485377970", null, null, null, "Oak", "Troop", "oaktroop2015@gmail.com", Gender.MALE, 0);
@@ -62,6 +71,10 @@ public class WelActivity extends AppCompatActivity implements FragmentDrawer.Fra
                 System.exit(0);
             }
         });
+
+
+
+
     }
 
 
