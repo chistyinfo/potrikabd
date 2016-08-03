@@ -1,0 +1,76 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:orientation="vertical"    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4c5759">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+     
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabBtn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/back_arrow"
+            app:elevation="6dp"
+            app:backgroundTint="@android:color/holo_orange_dark"
+            app:fabSize="normal"
+            android:layout_above="@+id/fabBtn"
+            android:layout_marginBottom="5dp"
+            android:layout_alignLeft="@+id/fabBtn"
+            android:layout_alignStart="@+id/fabBtn" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/home"
+        android:layout_marginBottom="80dp"
+        app:backgroundTint="@android:color/holo_orange_dark"
+        app:fabSize="normal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-2523520660707375/5393757849"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/fabBtn"
+            android:layout_alignEnd="@+id/fabBtn">
+        </com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

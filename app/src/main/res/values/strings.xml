@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BD University Websites</string>
+    <string name="app_name">পত্রিকাবিডি</string>
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -7,35 +7,13 @@
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
 
-    <string name="nav_item_engin">Engineering Universities</string>
-    <string name="nav_item_medical">Medical College</string>
-    <string name="nav_item_public">Public University</string>
-    <string name="nav_item_private">Private University</string>
-    <string name="nav_item_national">National University</string>
-    <string name="nav_item_others">Others</string>
+   
 
-    <!-- navigation drawer item labels  -->
-    <string-array name="nav_drawer_labels">
-        <item>@string/nav_item_engin</item>
-        <item>@string/nav_item_medical</item>
-        <item>@string/nav_item_public</item>
-        <item>@string/nav_item_private</item>
-        <item>@string/nav_item_national</item>
-        <item>@string/nav_item_others</item>
-
-    </string-array>
-
-    <string name="title_engin">Engineering University</string>
-    <string name="title_medical">Medical College</string>
-    <string name="title_public">Public University</string>
-    <string name="title_private">Private University</string>
-    <string name="title_national">National University</string>
-    <string name="title_other">Others</string>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
-    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="banner_ad_unit_id">ca-app-pub-123456789/123456789</string>
 
 </resources>
