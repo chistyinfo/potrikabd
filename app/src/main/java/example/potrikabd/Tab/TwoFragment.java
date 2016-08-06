@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import example.potrikabd.JatioListAdapter;
+import example.potrikabd.InterListAdapter1;
 import example.potrikabd.R;
 import example.potrikabd.WebActivity;
 
@@ -67,7 +67,7 @@ public class TwoFragment extends Fragment {
 //        webView3.loadUrl("http://www.cse.com.bd/market_depth.php");
 //        webView3.getSettings().setJavaScriptEnabled(true);
 //        webView3.setWebViewClient(new WebViewClient());
-        JatioListAdapter adapter = new JatioListAdapter(getActivity(), itemname, imgid);
+        InterListAdapter1 adapter = new InterListAdapter1(getActivity(), itemname, imgid);
         list1 = (ListView) rootView.findViewById(R.id.list1);
         list1.setAdapter(adapter);
         list1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
