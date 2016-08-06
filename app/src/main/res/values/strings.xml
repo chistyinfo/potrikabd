@@ -7,11 +7,10 @@
     <string name="drawer_open">Open</string>
     <string name="drawer_close">Close</string>
 
-   
 
-
-<!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
 
 
     <string name="banner_ad_unit_id">ca-app-pub-123456789/123456789</string>

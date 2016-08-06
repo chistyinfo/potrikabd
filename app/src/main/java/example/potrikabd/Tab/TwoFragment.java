@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import example.potrikabd.CustomListAdapter;
+import example.potrikabd.JatioListAdapter;
 import example.potrikabd.R;
 import example.potrikabd.WebActivity;
 
@@ -23,20 +23,8 @@ public class TwoFragment extends Fragment {
             "দৈনিক নয়াদিগন্ত",
             "দৈনিক মানবজমিন",
             "দৈনিক কালেরকন্ঠ",
-            "দৈনিক সমকাল",
-            "দৈনিক যায়যায়দিন",
-            "দৈনিক আমারদেশ",
-            "দৈনিক বাংলাদেশ প্রতিদিন",
-            "বিবিসি বাংলা",
-            "দৈনিক ইনকিলাব",
-            "The Independent",
-            "The Daily Star",
-            "আমাদের সময় ডট কম",
-            "আনন্দবাজা",
-            "ভোরের কাগজ",
-            "ভোরের পাতা",
-            "জনকন্ঠ",
-            "মানবকন্ঠ"
+            "দৈনিক সমকাল"
+
 
     };
     Integer[] imgid={
@@ -46,29 +34,14 @@ public class TwoFragment extends Fragment {
             R.drawable.pic4,
             R.drawable.pic5,
             R.drawable.pic6,
-            R.drawable.pic7,
-            R.drawable.pic8,
-            R.drawable.pic9,
-            R.drawable.pic10,
-            R.drawable.pic11,
-            R.drawable.pic12,
-            R.drawable.pic13,
-            R.drawable.pic14,
-            R.drawable.pic15,
-            R.drawable.pic16,
-            R.drawable.pic18,
-            R.drawable.pic19,
-            R.drawable.pic20,
-            R.drawable.pic21,
+            R.drawable.pic7
+
     };
     String[] urlStrArray={"http://www.prothom-alo.com/",
             "http://www.jugantor.com/mobile/","http://www.ittefaq.com/mobile/",
             "http://www.dailynayadiganta.com/",
             "http://www.mzamin.com","http://www.kalerkantho.com/index.php",
-            "http://www.samakal.net/","http://www.jjdin.com/","http://www.amardeshonline.com/","http://www.bd-pratidin.com",
-            "http://www.bbc.co.uk/bengali","http://www.dailyinqilab.com","http://www.theindependentbd.com/","http://www.thedailystar.net/","http://www.amadershomoys.com/unicode/",
-            "http://www.anandabazar.com/","http://www.bhorerkagoj.net/","http://www.dailyvorerpata.com/","http://www.dailyjanakantha.com/","http://www.manobkantha.com/"
-    };
+            "http://www.samakal.net/"};
 
     public TwoFragment() {
         // Required empty public constructor
@@ -94,7 +67,7 @@ public class TwoFragment extends Fragment {
 //        webView3.loadUrl("http://www.cse.com.bd/market_depth.php");
 //        webView3.getSettings().setJavaScriptEnabled(true);
 //        webView3.setWebViewClient(new WebViewClient());
-        CustomListAdapter adapter = new CustomListAdapter(getActivity(), itemname, imgid);
+        JatioListAdapter adapter = new JatioListAdapter(getActivity(), itemname, imgid);
         list1 = (ListView) rootView.findViewById(R.id.list1);
         list1.setAdapter(adapter);
         list1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -106,7 +79,6 @@ public class TwoFragment extends Fragment {
 
                                             String Slecteditem = itemname[+position];
                                             view.setSelected(true);
-//                                                Intent intent = new Intent(OneFragment.this, WebActivity.class);
                                             Intent intent = new Intent(getActivity(), WebActivity.class);
                                             intent.putExtra("url", urlStrArray[position]);
                                             TwoFragment.this.startActivity(intent);

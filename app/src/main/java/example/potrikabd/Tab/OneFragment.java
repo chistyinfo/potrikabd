@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import example.potrikabd.CustomListAdapter;
+import example.potrikabd.JatioListAdapter;
 import example.potrikabd.R;
 import example.potrikabd.WebActivity;
 
@@ -98,7 +98,7 @@ public class OneFragment extends Fragment {
 //        webView2.getSettings().setJavaScriptEnabled(true);
 //        webView2.setWebViewClient(new WebViewClient());
 
-        CustomListAdapter adapter = new CustomListAdapter(getActivity(), itemname, imgid);
+        JatioListAdapter adapter = new JatioListAdapter(getActivity(), itemname, imgid);
         list = (ListView) rootView.findViewById(R.id.list);
         list.setAdapter(adapter);
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -117,19 +117,9 @@ public class OneFragment extends Fragment {
 
                                             }
 
-
-
-
-
-
                                     }
 
         );
-
-
-
-
-
         return rootView;
 
 
