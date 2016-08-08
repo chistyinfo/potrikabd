@@ -20,19 +20,22 @@ public class TwoFragment extends Fragment {
             "আনন্দ আলো",
             "অনন্যা",
             " অবসর",
-            " বিনোদন প্লাস "
+            " বিনোদন প্লাস ",
+            "ঢাকা ম্যাগাজিন"
 
     };
     Integer[] imgid={
             R.drawable.andoalo,
             R.drawable.anona,
             R.drawable.aboshor,
-            R.drawable.binodonplus
+            R.drawable.binodonplus,
+            R.drawable.dhakamagazine
 
     };
     String[] urlStrArray={"http://ananda-alo.com/",
             "http://anannya.com.bd/","http://www.abasar.net/",
-            "http://binodonplus.com/"
+            "http://binodonplus.com/",
+            "http://dhakamagazine.com/"
            };
 
     public TwoFragment() {
