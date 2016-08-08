@@ -63,7 +63,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             ads:adSize="SMART_BANNER"
-            ads:adUnitId="ca-app-pub-2523520660707375/5393757849"
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
             android:layout_alignParentBottom="true"
             android:layout_alignRight="@+id/fabBtn"
             android:layout_alignEnd="@+id/fabBtn">

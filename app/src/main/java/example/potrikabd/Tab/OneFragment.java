@@ -66,7 +66,7 @@ public class OneFragment extends Fragment {
             "http://www.jugantor.com/mobile/","http://www.ittefaq.com/mobile/",
             "http://www.dailynayadiganta.com/",
             "http://www.mzamin.com","http://www.kalerkantho.com/index.php",
-            "http://www.samakal.net/","http://www.jjdin.com/","http://www.amardeshonline.com/","http://www.bd-pratidin.com",
+            "http://bangla.samakal.net/","http://www.jjdin.com/","http://www.amardeshonline.com/","http://www.bd-pratidin.com",
             "http://www.bbc.co.uk/bengali","http://www.dailyinqilab.com","http://www.theindependentbd.com/","http://www.thedailystar.net/","http://www.amadershomoys.com/unicode/",
             "http://www.anandabazar.com/","http://www.bhorerkagoj.net/","http://www.dailyvorerpata.com/","http://www.dailyjanakantha.com/","http://www.manobkantha.com/"
     };
