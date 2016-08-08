@@ -17,31 +17,23 @@ import example.potrikabd.WebActivity;
 public class TwoFragment extends Fragment {
     private ListView list1;
     String[] itemname ={
-            "দৈনিক প্রথমআলো",
-            "দৈনিক যুগান্তর",
-            "দৈনিক ইত্তেফাক",
-            "দৈনিক নয়াদিগন্ত",
-            "দৈনিক মানবজমিন",
-            "দৈনিক কালেরকন্ঠ",
-            "দৈনিক সমকাল"
-
+            "আনন্দ আলো",
+            "অনন্যা",
+            " অবসর",
+            " বিনোদন প্লাস "
 
     };
     Integer[] imgid={
-            R.drawable.pic1,
-            R.drawable.pic2,
-            R.drawable.pic3,
-            R.drawable.pic4,
-            R.drawable.pic5,
-            R.drawable.pic6,
-            R.drawable.pic7
+            R.drawable.andoalo,
+            R.drawable.anona,
+            R.drawable.aboshor,
+            R.drawable.binodonplus
 
     };
-    String[] urlStrArray={"http://www.prothom-alo.com/",
-            "http://www.jugantor.com/mobile/","http://www.ittefaq.com/mobile/",
-            "http://www.dailynayadiganta.com/",
-            "http://www.mzamin.com","http://www.kalerkantho.com/index.php",
-            "http://www.samakal.net/"};
+    String[] urlStrArray={"http://ananda-alo.com/",
+            "http://anannya.com.bd/","http://www.abasar.net/",
+            "http://binodonplus.com/"
+           };
 
     public TwoFragment() {
         // Required empty public constructor
